@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+$footer-color: #686de0;
+$page-background: #c3cfe2;
+$text-background: #fff;
+$facebook-color: #3b5998;
+$twitter-color: #00aced;
+$github-color: #333;
+$linkedin-color: #007bb6;
+
+@mixin flexcenter ($justify, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+// Part 1 //
+
+@import './testimonial';
+
+
+// Part 2 //
+
+@import './portfolio';
+
+
+// Part 3 //
+
+@import './social';
+
+
+
+
+
+
+
+
+
+
+
+

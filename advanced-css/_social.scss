@@ -1,0 +1,71 @@
+.social-wrapper {
+    position: relative;
+    display: flex; 
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    background: $page-background;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.twitter {
+    position: absolute;
+    top: 40px;
+    background: $twitter-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    right: -270px;
+    transition: right 0.4s ease-in-out;
+}
+
+.facebook {
+    position: absolute;
+    top: 120px;
+    background: $facebook-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    right: -270px;
+    transition: right 0.4s ease-in-out;
+}
+
+.github {
+    position: absolute;
+    top: 200px;
+    background: $github-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    right: -270px;
+    transition: right 0.4s ease-in-out;
+}
+
+.instagram {
+    position: absolute;
+    top: 280px;
+    background: $linkedin-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    right: -270px;
+    transition: right 0.4s ease-in-out;
+}
+
+.social-media:hover {
+    right: 0px;
+}
+
+.social a {
+    color: white;
+}
